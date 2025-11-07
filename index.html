@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjectLogin</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Faça Login para acessar sua conta</p>
+                <form action="login.js" method="post">
+                     <div id="campo">
+                            <span class="material-symbols-outlined">
+                                mark_email_unread
+                            </span>
+                            <input type="email" name="email" id="iEmail" placeholder=" email" autocomplete="email" required maxlength="30">
+                            <label for="iEmail">
+                                Email
+                            </label>
+                     </div>
+                    
+                     <div id="campo">
+                            <span class="material-symbols-outlined">
+                                key</span>
+                            <input type="password" name="senha"
+                            id="iSenha" placeholder=" senha" autocomplete="current-password" required minlength="8">
+                            <label for="iSenha">
+                                Senha
+                            </label>
+                     </div>
+                    
+                     <input type="submit" value="Entrar">
+                     <a href="esqueci.html" class="botao">Esqueci a senha</a>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
