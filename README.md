@@ -1,6 +1,6 @@
 # Projeto: Tela de Login Responsiva
 
-Este projeto é uma página de login desenvolvida com HTML e CSS, seguindo o conceito mobile first e utilizando media queries para adaptação a diferentes tamanhos de tela (celulares, tablets e desktops).
+Este projeto é uma página de login desenvolvida com HTML e CSS, seguindo o conceito mobile first e utilizando media queries para adaptação a diferentes tamanhos de tela (celulares, tablets e desktops) para aprendizem.
 
 # Tecnologias utilizadas
 
